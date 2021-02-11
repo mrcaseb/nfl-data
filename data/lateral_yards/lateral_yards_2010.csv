@@ -1,0 +1,12 @@
+game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
+2010_01_DET_CHI,3189,12,lateral_rushing,3,DET,Sh.Hill,00-0020679
+2010_01_OAK_TEN,509,12,lateral_rushing,1,OAK,J.Campbell,00-0023460
+2010_02_TB_CAR,3639,23,lateral_receiving,2,CAR,S.Smith,00-0020337
+2010_04_WAS_PHI,3944,23,lateral_receiving,-1,PHI,J.Avant,00-0024324
+2010_04_WAS_PHI,3944,23,lateral_receiving,15,PHI,L.McCoy,00-0027029
+2010_06_DAL_MIN,3803,23,lateral_receiving,-8,DAL,R.Williams,00-0022909
+2010_06_DAL_MIN,3803,23,lateral_receiving,11,DAL,T.Romo,00-0021678
+2010_07_STL_TB,4111,23,lateral_receiving,9,STL,S.Jackson,00-0022736
+2010_11_CHI_MIA,2181,12,lateral_rushing,3,MIA,T.Thigpen,00-0025604
+2010_15_JAX_IND,4118,23,lateral_receiving,1,JAC,R.Jennings,00-0027155
+2010_15_JAX_IND,4118,23,lateral_receiving,4,JAC,M.Thomas,00-0027076

@@ -1,0 +1,12 @@
+game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
+2001_06_STL_NYJ,1523,13,lateral_rushing,44,STL,T.Canidate,00-0019649
+2001_07_MIN_TB,2977,23,lateral_receiving,9,MIN,D.Chapman,00-0019712
+2001_13_CHI_GB,3296,23,lateral_receiving,7,CHI,J. Allen,00-0000210
+2001_13_TEN_MIN,787,23,lateral_receiving,4,MIN,R.Moss,00-0011754
+2001_13_TEN_MIN,2920,23,lateral_receiving,18,MIN,B.Chamberlain,00-0002861
+2001_15_NYJ_IND,3630,12,lateral_rushing,11,NYJ,C.Martin,00-0010442
+2001_16_NYG_PHI,4010,23,lateral_receiving,62,NYG,R.Dixon,00-0019662
+2001_17_GB_NYG,3999,23,lateral_receiving,13,NYG,R.Dixon,00-0019662
+2001_17_CIN_TEN,3982,23,lateral_receiving,11,TEN,E.George,00-0005883
+2001_18_NYJ_OAK,1572,23,lateral_receiving,-2,NYJ,C.Martin,00-0010442
+2001_20_PHI_STL,3613,23,lateral_receiving,2,PHI,J.Thrash,00-0016440

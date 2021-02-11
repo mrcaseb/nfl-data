@@ -1,0 +1,16 @@
+game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
+2011_01_DET_TB,4277,23,lateral_receiving,2,TB,D.Penn,00-0023894
+2011_01_DET_TB,4277,23,lateral_receiving,-4,TB,J.Freeman,00-0026993
+2011_01_DAL_NYJ,4133,23,lateral_receiving,-10,DAL,F.Jones,00-0026162
+2011_02_TB_MIN,3945,23,lateral_receiving,8,MIN,A.Peterson,00-0025394
+2011_02_TB_MIN,3945,23,lateral_receiving,6,MIN,P.Harvin,00-0026998
+2011_03_DEN_TEN,1665,12,lateral_rushing,21,TEN,B.Kern,00-0025825
+2011_03_GB_CHI,4417,12,lateral_rushing,9,CHI,J.Cutler,00-0024226
+2011_05_CIN_JAX,3840,23,lateral_receiving,7,CIN,M.Thomas,00-0027076
+2011_06_SF_DET,4781,23,lateral_receiving,0,DET,T.Young,00-0027982
+2011_07_WAS_CAR,2650,12,lateral_rushing,5,CAR,D.Williams,00-0024242
+2011_09_NYG_NE,4729,23,lateral_receiving,2,NE,J.Edelman,00-0027150
+2011_09_NYG_NE,4729,23,lateral_receiving,0,NE,L.Mankins,00-0023467
+2011_15_MIA_BUF,4999,23,lateral_receiving,-2,BUF,C.Spiller,00-0027861
+2011_19_NO_SF,4986,23,lateral_receiving,0,NO,D.Brees,00-0020531
+2011_19_NO_SF,4986,23,lateral_receiving,2,NO,R.Meachem,00-0025414

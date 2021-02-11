@@ -1,0 +1,16 @@
+game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
+2020_03_DAL_SEA,1439,23,lateral_receiving,0,DAL,C.Lamb,00-0036358
+2020_06_LA_SF,1909,23,lateral_receiving,4,LA,D.Henderson,00-0035664
+2020_07_CLE_CIN,1334,23,lateral_receiving,0,CLE,K.Hunt,00-0033923
+2020_08_ATL_CAR,2762,23,lateral_receiving,3,CAR,R.Anderson,00-0032688
+2020_09_CAR_KC,1909,23,lateral_receiving,3,CAR,C.McCaffrey,00-0033280
+2020_10_CIN_PIT,688,23,lateral_receiving,14,PIT,C.Claypool,00-0036326
+2020_11_PHI_CLE,2512,12,lateral_rushing,2,CLE,N.Chubb,00-0034791
+2020_14_WAS_SF,4752,23,lateral_receiving,3,SF,R.James,00-0034286
+2020_15_JAX_BAL,3438,12,lateral_rushing,1,BAL,T.Huntley,00-0035993
+2020_15_KC_NO,3831,13,lateral_rushing,12,KC,L.Bell,00-0030496
+2020_16_CIN_HOU,3932,23,lateral_receiving,0,HOU,K.Coutee,00-0034366
+2020_16_CIN_HOU,3932,23,lateral_receiving,0,HOU,D.Watson,00-0033537
+2020_16_CIN_HOU,3932,23,lateral_receiving,7,HOU,B.Cooks,00-0031236
+2020_16_CIN_HOU,3932,23,lateral_receiving,7,HOU,M.Scharping,00-0035245
+2020_16_CIN_HOU,3932,23,lateral_receiving,8,HOU,C.Heck,00-0036195
