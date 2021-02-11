@@ -1,19 +1,26 @@
 `%>%` <- magrittr::`%>%`
 
-save_lateral_yards <- function(s){
-  # future::plan("multisession")
+save_lateral_yards <- function(s) {
+  future::plan("multisession")
   games <- readRDS(url("https://github.com/leesharpe/nfldata/blob/master/data/games.rds?raw=true")) %>%
-    dplyr::filter(!is.na(result), season == s)
+    dplyr::filter(!is.na(result), season %in% s)
 
   load <- furrr::future_map_dfr(games$game_id, check_lateral_yards)
-  all <- load %>%
-    nflfastR::decode_player_ids()
-  
-  saveRDS(all, glue::glue("data/lateral_yards/lateral_yards_{s}.rds"))
-  readr::write_csv(all, glue::glue("data/lateral_yards/lateral_yards_{s}.csv"))
-  usethis::ui_done("{Sys.time()}: Saved lateral yards for {s}")
-  # closeAllConnections()
-  # Sys.sleep(150)
+  all <-
+    dplyr::bind_rows(
+      readRDS("data/lateral_yards/multiple_lateral_yards.rds"),
+      load %>%
+        nflfastR::decode_player_ids() %>%
+        dplyr::group_by(game_id, play_id) %>%
+        dplyr::filter(dplyr::n() > 1) %>%
+        dplyr::ungroup()
+    ) %>% 
+    dplyr::distinct()
+
+  saveRDS(all, "data/lateral_yards/multiple_lateral_yards.rds")
+  readr::write_csv(all, glue::glue("data/lateral_yards/multiple_lateral_yards.csv"))
+  # usethis::ui_done("{Sys.time()}: Saved lateral yards")
+  closeAllConnections()
 }
 
 check_lateral_yards <- function(id){

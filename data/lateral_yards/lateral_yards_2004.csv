@@ -1,9 +1,0 @@
-game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
-2004_04_ATL_CAR,3713,23,lateral_receiving,10,CAR,D.Foster,00-0021164
-2004_06_SF_NYJ,3833,23,lateral_receiving,3,SF,T.Jackson,00-0008196
-2004_06_PIT_DAL,3822,23,lateral_receiving,20,DAL,T.Glenn,00-0006043
-2004_09_ARI_MIA,4210,23,lateral_receiving,6,MIA,C.Chambers,00-0020446
-2004_14_NO_DAL,4462,23,lateral_receiving,5,DAL,K.Johnson,00-0008561
-2004_15_MIN_DET,3204,23,lateral_receiving,25,DET,S.Bryson,00-0002159
-2004_17_MIA_BAL,3983,23,lateral_receiving,14,MIA,C.Chambers,00-0020446
-2004_17_NO_CAR,4006,23,lateral_receiving,13,CAR,N.Goings,00-0019831
