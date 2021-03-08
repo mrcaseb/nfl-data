@@ -2,10 +2,7 @@ on:
   schedule:
     # runs every day at 7:00 AM UTC = 3AM ET in jan, feb, aug-dec
     - cron:  '0 7 * 1,2,8-12 *'
-  push:
-    paths:
-      - R/update_ngs.R
-      - R/update_lat_rec.R
+  workflow_dispatch:
 
 name: Update Data
 
@@ -18,7 +15,7 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - name: Install necessary packages
         run: |
-          install.packages(c("tidyverse", "lubridate", "glue", "usethis", "httr", "janitor", "nflfastR", "callr", "furrr"))
+          install.packages(c("tidyverse", "lubridate", "glue", "usethis", "httr", "janitor", "nflfastR", "callr", "furrr", "nflfastR", "gsisdecoder"), type = "binary")
         shell: Rscript {0}
       - name: Run ngs update script
         run: Rscript -e 'source("R/update_ngs.R")'
