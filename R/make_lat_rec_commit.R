@@ -1,4 +1,4 @@
-message <- sprintf("Lateral receiving data updated %s (ET)", lubridate::now("America/New_York"))
+message <- sprintf("Lateral data updated %s (ET)", lubridate::now("America/New_York"))
 
 git <- function(..., echo_cmd = TRUE, echo = TRUE, error_on_status = FALSE) {
   callr::run("git", c(...),
