@@ -2,7 +2,7 @@
 
 save_lateral_yards <- function(s) {
   future::plan("multisession")
-  games <- readRDS(url("https://github.com/leesharpe/nfldata/blob/master/data/games.rds?raw=true")) %>%
+  games <- nflfastR:::load_lees_games() %>%
     dplyr::filter(!is.na(result), season %in% s)
 
   load <- furrr::future_map_dfr(games$game_id, check_lateral_yards)
@@ -27,7 +27,9 @@ check_lateral_yards <- function(id){
   # usethis::ui_todo("{id}")
   season <- substr(id, 1, 4)
   path <- "https://github.com/guga31bb/nflfastR-raw/blob/master/raw"
-  raw_data <- readRDS(url(glue::glue("{path}/{season}/{id}.rds?raw=true")))
+  con <- url(glue::glue("{path}/{season}/{id}.rds?raw=true"))
+  raw_data <- readRDS(con)
+  close(con)
   # raw_data <- readRDS(glue::glue("../nflfastR-raw/raw/{season}/{id}.rds"))
   plays <- janitor::clean_names(raw_data$data$viewer$gameDetail$plays) %>%
     dplyr::select(play_id, play_stats)
