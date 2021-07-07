@@ -1,0 +1,41 @@
+season,week,game_id,home_team,away_team,home_team_id,away_team_id,home_score,away_score,result,total
+2021,1,bdss2101,Barcelona Dragons,Stuttgart Surge,BD,SS,17,21,-4,38
+2021,1,pwcc2101,Panthers Wroclaw,Cologne Centurions,PW,CC,55,39,16,94
+2021,1,hdfg2101,Hamburg Sea Devils,Frankfurt Galaxy,HD,FG,17,15,2,32
+2021,1,btlk2101,Berlin Thunder,Leipzig Kings,BT,LK,27,37,-10,64
+2021,2,pwlk2102,Panthers Wroclaw,Leipzig Kings,PW,LK,54,28,26,82
+2021,2,ccbd2102,Cologne Centurions,Barcelona Dragons,CC,BD,40,12,28,52
+2021,2,ssfg2102,Stuttgart Surge,Frankfurt Galaxy,SS,FG,20,42,-22,62
+2021,3,lkcc2103,Leipzig Kings,Cologne Centurions,LK,CC,47,48,-1,95
+2021,3,bdhd2103,Barcelona Dragons,Hamburg Sea Devils,BD,HD,14,32,-18,46
+2021,3,fgpw2103,Frankfurt Galaxy,Panthers Wroclaw,FG,PW,22,13,9,35
+2021,3,btss2103,Berlin Thunder,Stuttgart Surge,BT,SS,40,19,21,59
+2021,4,ccfg2104,Cologne Centurions,Frankfurt Galaxy,CC,FG,NA,NA,NA,NA
+2021,4,sslk2104,Stuttgart Surge,Leipzig Kings,SS,LK,NA,NA,NA,NA
+2021,4,hdbt2104,Hamburg Sea Devils,Berlin Thunder,HD,BT,NA,NA,NA,NA
+2021,5,btpw2105,Berlin Thunder,Panthers Wroclaw,BT,PW,NA,NA,NA,NA
+2021,5,lkhd2105,Leipzig Kings,Hamburg Sea Devils,LK,HD,NA,NA,NA,NA
+2021,5,fgbd2105,Frankfurt Galaxy,Barcelona Dragons,FG,BD,NA,NA,NA,NA
+2021,6,pwhd2106,Panthers Wroclaw,Hamburg Sea Devils,PW,HD,NA,NA,NA,NA
+2021,6,bdbt2106,Barcelona Dragons,Berlin Thunder,BD,BT,NA,NA,NA,NA
+2021,6,sscc2106,Stuttgart Surge,Cologne Centurions,SS,CC,NA,NA,NA,NA
+2021,7,hdbd2107,Hamburg Sea Devils,Barcelona Dragons,HD,BD,NA,NA,NA,NA
+2021,7,ccpw2107,Cologne Centurions,Panthers Wroclaw,CC,PW,NA,NA,NA,NA
+2021,7,lkbt2107,Leipzig Kings,Berlin Thunder,LK,BT,NA,NA,NA,NA
+2021,7,fgss2107,Frankfurt Galaxy,Stuttgart Surge,FG,SS,NA,NA,NA,NA
+2021,8,bdcc2108,Barcelona Dragons,Cologne Centurions,BD,CC,NA,NA,NA,NA
+2021,8,fghd2108,Frankfurt Galaxy,Hamburg Sea Devils,FG,HD,NA,NA,NA,NA
+2021,8,lkss2108,Leipzig Kings,Stuttgart Surge,LK,SS,NA,NA,NA,NA
+2021,9,pwfg2109,Panthers Wroclaw,Frankfurt Galaxy,PW,FG,NA,NA,NA,NA
+2021,9,ssbd2109,Stuttgart Surge,Barcelona Dragons,SS,BD,NA,NA,NA,NA
+2021,9,bthd2109,Berlin Thunder,Hamburg Sea Devils,BT,HD,NA,NA,NA,NA
+2021,10,cclk2110,Cologne Centurions,Leipzig Kings,CC,LK,NA,NA,NA,NA
+2021,10,hdpw2110,Hamburg Sea Devils,Panthers Wroclaw,HD,PW,NA,NA,NA,NA
+2021,10,btbd2110,Berlin Thunder,Barcelona Dragons,BT,BD,NA,NA,NA,NA
+2021,11,ccss2111,Cologne Centurions,Stuttgart Surge,CC,SS,NA,NA,NA,NA
+2021,11,bdfg2111,Barcelona Dragons,Frankfurt Galaxy,BD,FG,NA,NA,NA,NA
+2021,11,pwbt2111,Panthers Wroclaw,Berlin Thunder,PW,BT,NA,NA,NA,NA
+2021,11,hdlk2111,Hamburg Sea Devils,Leipzig Kings,HD,LK,NA,NA,NA,NA
+2021,12,ssbt2112,Stuttgart Surge,Berlin Thunder,SS,BT,NA,NA,NA,NA
+2021,12,lkpw2112,Leipzig Kings,Panthers Wroclaw,LK,PW,NA,NA,NA,NA
+2021,12,fgcc2112,Frankfurt Galaxy,Cologne Centurions,FG,CC,NA,NA,NA,NA
