@@ -15,7 +15,7 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - name: Install necessary packages
         run: |
-          install.packages(c("nflreadr", "nflfastR", "gsisdecoder"), type = "binary")
+          install.packages(c("nflreadr", "nflfastR", "gsisdecoder", "readr"), type = "binary")
         shell: Rscript {0}
       - name: Run lat rec update script
         run: Rscript -e 'source("R/update_lat_rec.R")'
