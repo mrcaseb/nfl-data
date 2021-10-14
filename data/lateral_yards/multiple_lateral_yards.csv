@@ -147,3 +147,8 @@ game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
 2020_16_CIN_HOU,3932,23,lateral_receiving,7,HOU,B.Cooks,00-0031236
 2020_16_CIN_HOU,3932,23,lateral_receiving,7,HOU,M.Scharping,00-0035245
 2020_16_CIN_HOU,3932,23,lateral_receiving,8,HOU,C.Heck,00-0036195
+2021_01_CLE_KC,2009,23,lateral_receiving,11,CLE,B.Mayfield,00-0034855
+2021_01_CLE_KC,2009,23,lateral_receiving,2,CLE,K.Hunt,00-0033923
+2021_02_LA_IND,3713,23,lateral_receiving,0,IND,M.Pittman,00-0036252
+2021_02_LA_IND,3713,23,lateral_receiving,0,IND,J.Eason,00-0036226
+2021_02_LA_IND,3713,23,lateral_receiving,10,IND,N.Hines,00-0034367
