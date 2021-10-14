@@ -22,8 +22,8 @@ save_lateral_yards <- function(s) {
 
 check_lateral_yards <- function(id){
   season <- substr(id, 1, 4)
-  path <- "https://github.com/guga31bb/nflfastR-raw/blob/master/raw"
-  raw_data <- nflreadr::rds_from_url(sprintf("%s/%s/%s.rds?raw=true", path, season, id))
+  path <- "https://github.com/nflverse/nflfastR-raw/raw/master/raw"
+  raw_data <- nflreadr::rds_from_url(sprintf("%s/%s/%s.rds", path, season, id))
   plays <- janitor::clean_names(raw_data$data$viewer$gameDetail$plays) |>
     dplyr::select(play_id, play_stats)
   stats <- tidyr::unnest(plays, cols = c("play_stats")) |>
