@@ -23,6 +23,7 @@ save_lateral_yards <- function(s) {
 check_lateral_yards <- function(id){
   season <- substr(id, 1, 4)
   path <- "https://github.com/nflverse/nflfastR-raw/raw/master/raw"
+  message(sprintf("%s/%s/%s.rds", path, season, id))
   con <- url(sprintf("%s/%s/%s.rds", path, season, id))
   raw_data <- readRDS(con)
   close(con)
