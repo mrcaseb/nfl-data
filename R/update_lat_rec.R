@@ -1,9 +1,9 @@
 save_lateral_yards <- function(s) {
-  future::plan("multisession")
+  # future::plan("multisession")
   games <- nflreadr::load_schedules(s) |>
     dplyr::filter(!is.na(result))
   
-  load <- furrr::future_map_dfr(games$game_id, check_lateral_yards)
+  load <- purrr::map_dfr(games$game_id, check_lateral_yards)
   all <-
     dplyr::bind_rows(
       readRDS("data/lateral_yards/multiple_lateral_yards.rds"),
