@@ -152,3 +152,5 @@ game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
 2021_02_LA_IND,3713,23,lateral_receiving,0,IND,M.Pittman,00-0036252
 2021_02_LA_IND,3713,23,lateral_receiving,0,IND,J.Eason,00-0036226
 2021_02_LA_IND,3713,23,lateral_receiving,10,IND,N.Hines,00-0034367
+2021_09_HOU_MIA,4462,23,lateral_receiving,-2,HOU,N.Collins,00-0036554
+2021_09_HOU_MIA,4462,23,lateral_receiving,2,HOU,B.Cooks,00-0031236
