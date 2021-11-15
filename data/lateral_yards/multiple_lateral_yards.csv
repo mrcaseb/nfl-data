@@ -154,3 +154,5 @@ game_id,play_id,stat_id,type,yards,team_abbr,player_name,gsis_player_id
 2021_02_LA_IND,3713,23,lateral_receiving,10,IND,N.Hines,00-0034367
 2021_09_HOU_MIA,4462,23,lateral_receiving,-2,HOU,N.Collins,00-0036554
 2021_09_HOU_MIA,4462,23,lateral_receiving,2,HOU,B.Cooks,00-0031236
+2021_10_DET_PIT,5037,23,lateral_receiving,8,DET,T.Benson,00-0034930
+2021_10_DET_PIT,5037,23,lateral_receiving,2,DET,D.Swift,00-0036275
