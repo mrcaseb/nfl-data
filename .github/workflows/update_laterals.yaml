@@ -4,11 +4,11 @@ on:
     - cron:  '0 7 * 1,2,8-12 *'
   workflow_dispatch:
 
-name: Update Data
+name: Update Multiple Laterals Data
 
 jobs:
   update:
-    name: update data
+    name: Update Multiple Laterals Data
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -26,7 +26,7 @@ jobs:
             readr
           
       - name: Run lat rec update script
-        run: Rscript -e 'source("R/update_lat_rec.R")'
+        run: Rscript -e 'source("R/update_multiple_laterals.R")'
         
       - name: Commit results
         run: |
