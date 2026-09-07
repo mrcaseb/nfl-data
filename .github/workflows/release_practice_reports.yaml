@@ -1,6 +1,6 @@
 on:
   schedule:
-  # runs every day at 7:00 AM UTC from Sep to Feb
+  # Runs every hour, only in September through December and January through February
   - cron:  '0 * * 9-12,1-2 *'
   workflow_dispatch:
 
