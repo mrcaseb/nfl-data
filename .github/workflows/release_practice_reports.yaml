@@ -25,7 +25,9 @@ jobs:
       - name: Run release script
         run: |
           release_practice_reports <- function(season){
-            logger::log_with_separator("Release {season} practice reports")
+            logger::log_separator()
+            logger::log_info("Release {season} practice reports")
+            logger::log_separator()
             injuries <- nflapi:::.nflapi_injuries_with_practice_days(season = season)
             nflversedata::nflverse_save(
               injuries,
