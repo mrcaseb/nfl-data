@@ -1,7 +1,7 @@
 on:
   schedule:
-  # Runs every hour, only in September through December and January through February
-  - cron:  '0 * * 9-12,1-2 *'
+    # Runs every hour, only in September through December and January through February
+    - cron:  '0 * * 9-12,1-2 *'
   workflow_dispatch:
 
 name: Release Practice Reports
