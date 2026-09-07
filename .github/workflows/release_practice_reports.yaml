@@ -37,5 +37,5 @@ jobs:
             )
             logger::log_success("DONE")
           }
-          purrr::walk(nflreadr::most_recent_season(), release_practice_reports)
+          release_practice_reports(season = nflreadr::most_recent_season(roster = TRUE))
         shell: Rscript {0}
