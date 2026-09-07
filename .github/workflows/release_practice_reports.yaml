@@ -1,9 +1,9 @@
 on: workflow_dispatch
 
-name: GHA test
+name: Release Practice Reports
 
 jobs:
-  gha_test:
+  release_reports:
     runs-on: ubuntu-latest
 
     env:
@@ -11,21 +11,27 @@ jobs:
       GITHUB_PAT: ${{ secrets.NFLVERSE_GH_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: r-lib/actions/setup-r@v2
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-           packages: logger
+           packages: logger, nflverse/nflapi, nflverse/nflverse-data
            dependencies: '"hard"'
 
-      - name: Run logger script
+      - name: Run release script
         run: |
-          logger::log_layout(logger::layout_gha)
-          logger::log_with_separator("Test dhjwelhdjiow2hqdjiow2 hdjio 2hwqjdio 2hewqdij oh2uwi oqdhujw2i oqhduio")
-          logger::log_success("This was successful")
-          logger::log_error("This is an error")
-          logger::log_tictoc("starting a timer")
-          Sys.sleep(1)
-          logger::log_tictoc("ending a timer")
-          logger::log_fatal("This should fail now")
+          release_practice_reports <- function(season){
+            logger::log_with_separator("Release {season} practice reports")
+            injuries <- nflapi:::.nflapi_injuries_with_practice_days(season = season)
+            nflversedata::nflverse_save(
+              injuries,
+              paste0("injuries_", season),
+              "Injury Data",
+              "nfl-injuries",
+              file_types = c("rds", "parquet"),
+              repo = "mrcaseb/nfl-data"
+            )
+            logger::log_success("DONE")
+          }
+          purrr::walk(nflreadr::most_recent_season(), release_practice_reports)
         shell: Rscript {0}
