@@ -1,7 +1,7 @@
 on:
   schedule:
   # runs every day at 7:00 AM UTC from Sep to Feb
-  - cron:  '0 7 * 1,2,9,10,11,12 *'
+  - cron:  '0 * * 9-12,1-2 *'
   workflow_dispatch:
 
 name: Release Practice Reports
